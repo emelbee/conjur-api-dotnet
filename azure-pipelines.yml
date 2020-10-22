@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmimage:s2015-win2012r2
+  vmimage:vs2017-win2016
 
 variables:
   solution: '**/*.sln'
