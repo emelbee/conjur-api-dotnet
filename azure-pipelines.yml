@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  default
+  vmimage:s2015-win2012r2
 
 variables:
   solution: '**/*.sln'
